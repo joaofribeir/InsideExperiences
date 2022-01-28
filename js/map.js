@@ -18,11 +18,11 @@
 			'Map': [
 			{
 				name: 'Lorem Ipsum',
-				location_latitude: 48.870587, 
-				location_longitude: 2.318943,
-				map_image_url: 'img/thumb_map_1.jpg',
-				name_point: 'Lorem Ipsum',
-				description_point: 'Place Charles de Gaulle, 75008 <br>Paris FRANCE<br><br>+45 423 445 99 / +45 423 445 99 ',
+				location_latitude: 41.269643, 
+				location_longitude: -8.080678,
+				map_image_url: 'img/map_inside.png',
+				name_point: 'Inside Experiences',
+				description_point: 'Rua Teixeira Vasconcelos nº104, 4600-104 <br>Amarante Portugal<br><br>+351 918 409 757',
 				url_point: ''
 			}
 			]
@@ -31,7 +31,7 @@
 
 			var mapOptions = {
 				zoom: 14,
-				center: new google.maps.LatLng(48.870587, 2.318943),
+				center: new google.maps.LatLng(41.269643, -8.080678),
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 
 				mapTypeControl: false,
