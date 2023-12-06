@@ -54,6 +54,7 @@ Author URI: http://themeforest.net/user/Ansonika/
 	text-align: center;
 	z-index: 9999;
 	width: 100%;
+	grid-row-start:
 }
 
 .chromeframe a {
@@ -473,7 +474,7 @@ header {
 }
 
 #header_1 header {
-	width: 1200px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -1645,7 +1646,7 @@ a.list_bt {
 
 .promo_full {
 	height: auto;
-	background: url(../img/promo_bg.jpg) no-repeat center center;
+	background: url(../img/foto\ capa.jpg) no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
